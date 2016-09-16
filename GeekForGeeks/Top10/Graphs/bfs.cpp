@@ -60,7 +60,6 @@ void Graph::BFS(int s){
 					visited[*it] = !visited[*it];
 				}
 			}
-
 	}
 
 	cout << endl;
