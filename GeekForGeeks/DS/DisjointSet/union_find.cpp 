@@ -1,0 +1,48 @@
+/* union_find.cpp
+
+	find: determines which subset a particular element is in. We can determine using find , if two element belong to the same subset.
+
+	union: used to join two subsets
+
+
+	Application: to check if a graph has cycles or not, in a undirected graph. 
+
+	Assumption: graph has no self-loop
+*/
+
+#include <iostream>
+#include <pair>
+
+using namespace std;
+
+class Graph{
+	private:
+		int V;
+		int E;
+		pair<int,int> *edgeList;
+
+	public:
+		Graph(int V,int E);		
+};
+
+Graph::Graph(int V,int E){
+	this->V = V;
+	this->E = E;
+	edgeList = new pair<int,int>[E];
+}
+
+class UF{
+	private:
+
+
+}
+
+
+
+
+
+
+
+
+
+
